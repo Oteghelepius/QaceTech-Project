@@ -3,7 +3,7 @@ name: CI/CD Pipeline - Sinatra Cats App
 on:
   push:
     branches:
-      - main  # You can change this to `dev` or any branch you deploy from
+      - main  
 
 jobs:
   build-and-deploy:
