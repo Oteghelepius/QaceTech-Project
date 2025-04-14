@@ -22,7 +22,7 @@ jobs:
       run: gem install sinatra json
 
     - name: Test app loads correctly
-      run: ruby -e "require 'sinatra'; require './app.rb'"
+      run: ruby -e "require 'sinatra'; require './cats/config/lib/cats.rb'
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v2
